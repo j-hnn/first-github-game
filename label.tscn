@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://b5a8axjwiub0g"]
+
+[sub_resource type="SystemFont" id="SystemFont_ksmbf"]
+font_weight = 100
+
+[sub_resource type="LabelSettings" id="LabelSettings_lkr6e"]
+font = SubResource("SystemFont_ksmbf")
+font_size = 50
+font_color = Color(0.43665, 0.523115, 1, 1)
+outline_size = 5
+outline_color = Color(0.772549, 0.301961, 0.486275, 1)
+
+[node name="Label" type="Label"]
+offset_left = 496.0
+offset_top = 302.0
+offset_right = 755.0
+offset_bottom = 374.0
+text = "John Weng"
+label_settings = SubResource("LabelSettings_lkr6e")
